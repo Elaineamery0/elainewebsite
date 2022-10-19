@@ -1,0 +1,179 @@
+body{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width:100%;
+}
+nav{
+    width:101%;
+    background-color:aquamarine;
+    height: 100px;
+    line-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px, 10px;
+}
+
+a:link{
+    text-decoration:none;
+    color: #333;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a.visited{
+    color:white;
+}
+ul li a:hover{
+    color: red;
+}
+
+a.active{
+    color:blue;
+}
+
+ul li{
+    float: left;
+    padding: 10px;
+    list-style: none;  
+}
+
+ul{
+    margin-right: 30px;
+}
+
+nav:hover{
+    background-color:pink;
+}
+
+a.light:hover{
+    color:green;
+}
+
+.logo a{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blueviolet;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(img/images11.png);
+    background-size:cover;
+}
+
+legend{
+    color:lightcoral;
+}
+
+fieldset{
+        margin-top:20px;
+        display: block;
+        border-width: 8px;
+        border-style: groove;
+        border-color: rgb(192, 192, 192);
+        border-image: initial;   
+}
+
+form{
+    padding: 50px;
+    background-color:lightgrey;
+    width:900px;
+    margin: auto;
+    height:90em;
+}
+
+.course{
+    width:110px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h2{
+    margin-top:30px;
+}
+
+input[type="text" i] {
+    padding: 1px 35px;
+    height:90px;
+    margin-right:1px; 
+}
+.text{
+    width:18em;
+    height:20px;
+    border-radius: 5px;
+}
+
+.im{
+    margin-top:-50px;
+    margin-left:17em;
+}
+
+.ter{
+    margin-top:-4.6em;
+    margin-left:6.8em;
+}
+
+.container{
+    padding:2em;
+    margin-right:5em;
+    font-size: 12px;
+    margin-top: -20px;
+    box-shadow: 40px;
+}
+
+.progress{
+    margin-left: 60em;
+    margin-top: -290px;
+    width:20em;
+}
+
+meter{
+    appearance: auto;
+    margin-top:-1001em;
+    height: 6em;
+    width: 40em;
+}
+button{
+    width:110px;
+    height:50px;
+    margin-left: 90em;
+    margin-top:-15em;
+}
+
+footer{
+    width:35%;
+    height:90px;
+    border:3px solid palevioletred;
+    box-shadow: 1pt;
+    padding: 2px;
+    margin-left: 816px;
+    margin-top: -2em;
+    background-color:lightgreen;
+    }
+
+    .copy h2{
+        font-style: italic;
+        font-size: 30px;
+        padding:2em;
+        margin-left:15em;
+        font-size: 14px;
+        margin-top: -70px;
+        box-shadow: 40px;
+    }
+
+legend{
+    padding: 8px;
+    border-radius: 10px;
+    border: 4px solid black ;
+    font-size:120%;
+    margin-right: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
